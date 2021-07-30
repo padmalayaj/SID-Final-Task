@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    /*background-color: #f7f7f7;*/
+    background: url(../images/Banner.jpeg);
+    background-size: cover;
+    background-blend-mode: darken;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+  }
+  
+  /* Navbar-container */
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1800px;
+    margin: 0px auto;
+    height: 100px;
+  }
+  
+  /* Navigation Bar: Logo and image*/
+  
+  #logo img {
+    margin: 7px 13px;
+    height: 103px;
+  }
+  
+  /* Navigation Bar: List */
+  #navbar ul {
+    display: flex;
+  }
+  
+  #navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+  }
+  
+  #navbar ul li a {
+    color: #2db4b9;
+    display: block;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px 22px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Bree Serif", serif;
+  }
+  #navbar ul li a:hover {
+    color: #fff;
+    background-color: #50d1c0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Home Section */
+  
+  #home::before {
+    content: "";
+    background: url(../images/Banner.jpeg) no-repeat center center/cover;
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.84;
+    top: 100px;
+    left: 0px;
+  }
+  
+  #home {
+    height: 90vh;
+    padding: 3px 28px;
+  }
+  
+  /* About Section */
+  
+  #aboutus-container {
+    width: 90%;
+    width: 90%;
+    margin-top: 111px;
+    margin-left: 97px;
+  }
+  
+  #about {
+    display: flex;
+    margin-top: 50px;
+  }
+  #about .box {
+    padding: 50px 40px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 30%);
+  }
+  
+  #about .box:hover {
+    transform: translateY(-20px);
+  }
+  
+  #about .box p {
+    font-family: "Bree Serif", serif;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.9em;
+  }
+  
+  #about .box p:hover {
+    color: #264653;
+  }
+  
+  /* Projects Section */
+  
+  #projects-container {
+    margin-top: 90px;
+    margin-bottom: 70px;
+  }
+  
+  #projects {
+    margin: 34px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+  }
+  
+  #projects .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 40px;
+    background: #50d1c0;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 30%);
+    margin: 0px 20px;
+    width: 500px;
+    padding: 34px;
+    background: #f2f2f2;
+  }
+  #projects .box:hover {
+    transform: translateY(-20px);
+  }
+  
+  #projects .box img {
+    height: 160px;
+    margin: 10px auto;
+    display: block;
+  }
+  
+  #projects .box p {
+    font-family: "Bree Serif", serif;
+    margin: 20px 0px 50px 0px;
+  }
+  
+  /* Footer */
+  
+  footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+  }
+  #foo p:hover {
+    color: #50d1c0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  /*Utility Classes */
+  .psize {
+    font-family: "Bree Serif", serif;
+    font-size: 1.1rem;
+  }
+  
+  .psize:hover {
+    color: #264653;
+  }
+  
+  .h-primary {
+    margin-bottom: 26px;
+    font-size: 2.8rem;
+    font-family: "Baloo Bhai", cursive;
+  }
+  
+  .h-primary:hover {
+    color: #fb5607;
+  }
+  
+  .h-secondary {
+    margin-top: 1px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: "Baloo Bhai 2", cursive;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  /* .btn{
+      display: block;
+      justify-self: flex-end;
+      padding: 6px 20px;
+      border: 2px solid white;
+      background-color:#50d1c0;
+      font-size: 1.1rem;
+      border-radius: 10px;
+      cursor: pointer;
+  } */
+  
+  /* Social Media Connect Footer */
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .contact .container {
+    text-align: center;
+    margin-top: 0%;
+  }
+  
+  .contact .container a {
+    text-decoration: none;
+  }
+  
