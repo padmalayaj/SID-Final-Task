@@ -8,6 +8,10 @@ router.get("/", authController.isLoggedIn, (req, res) => {
       user: req.user
     });
   });
+
+  router.get('/home',(req, res) => {
+    res.render('home');
+  });
   
   router.get("/register", (req, res) => {
     res.render('register');

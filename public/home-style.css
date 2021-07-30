@@ -9,7 +9,7 @@
   
   header {
     /*background-color: #f7f7f7;*/
-    background: url(../images/Banner.jpeg);
+    background: url(/Banner.jpeg);
     background-size: cover;
     background-blend-mode: darken;
     position: sticky;
@@ -66,7 +66,7 @@
   
   #home::before {
     content: "";
-    background: url(../images/Banner.jpeg) no-repeat center center/cover;
+    background: url(/Banner.jpeg) no-repeat center center/cover;
     position: absolute;
     height: 90vh;
     width: 100%;

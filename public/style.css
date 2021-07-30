@@ -30,6 +30,7 @@ nav li a{
 
 nav li a:hover{
     color: yellow;
+    text-decoration: none;
 }
 
 .jumbotron{
